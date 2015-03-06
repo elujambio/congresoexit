@@ -1,0 +1,156 @@
+
+/*	HEADER CSS	*/
+.header{
+	text-align:center;
+	width:100%;
+	height:auto;	
+}
+#logo{
+	height:50%;
+}
+.header img{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+/*	ONE STREAM	*/
+.one{
+	text-align:center;
+}
+.one iframe{
+	height:480px;
+	width:854px;
+}
+.one .ext-container {
+	text-align: center;
+}
+.one .int-container{
+	display:inline-block;
+	text-align:center;
+	padding-bottom:25px;
+	padding-left:25px;
+	padding-right:25px;
+}
+#stream {
+}
+#side {
+	width:284px;
+	height:480px;
+}
+/*	TWO CHAT	*/
+.two iframe{
+	width:854px;
+	height:500px;
+}
+.chat-room{
+	background-color:black;
+}
+/*	THREE	*/
+.three {
+	padding-top:50px;
+	text-align:center;
+	width:100%;
+}
+.three .ext-container{
+	text-align:center;
+	width:100%;
+}
+.three .int-container{
+	display:inline-block;
+	width:284px;
+}
+.three p{
+	text-align:left;
+	margin-left:15px;
+	margin-right:15px;
+	height:250px;
+}
+#section,
+#description{
+	width:284px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#section img{
+	width:285px;
+}
+/* unvisited link */
+.three a:link {
+    color: #f7712e;
+}
+
+/* visited link */
+.three a:visited {
+    color: #f7712e;
+}
+
+/* mouse over link */
+.trhee a:hover {
+    color: #f7712e;
+}
+
+/* selected link */
+.three a:active {
+    color: #f7712e;
+}
+.three a{
+	text-decoration:none;
+}
+/*	FOOTER	*/
+.footer{
+	width:100%;
+	height:15%;
+	text-align:center;
+	padding-top:50px;
+	padding-bottom:50px;
+	bottom:0px;
+	background-color:rgb(3,3,6);
+}
+.footer table{
+	display:inline-block;
+	text-align:center;
+	padding-left:0px;
+	padding-right:0px;
+	margin-left:0px;
+	margin-right:0px;
+}
+.footer td{
+	padding-left:20px;
+	padding-right:20px;
+}
+/* unvisited link */
+.footer a:link {
+    color: #737373;
+    transition:0.3s;
+
+}
+
+/* visited link */
+.footer a:visited {
+    color: #737373;
+}
+
+/* mouse over link */
+.footer a:hover {
+    color: #f7712e;
+    transition:0.3s;
+}
+
+/* selected link */
+.footer a:active {
+    color: #737373;
+}
+.footer a{
+	text-decoration: none;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+*{
+	pointer-events: fill;
+}
+.navlogo path{
+    transition: fill .4s ease;
+
+}
+.navlogo:hover path{
+	fill:#f7712e;
+}

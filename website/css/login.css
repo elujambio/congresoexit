@@ -1,0 +1,21 @@
+html, 
+body{
+	height:100%;
+}
+.slide .one{
+	height:100%;
+}
+input {
+	width:30%;
+}
+.footer{
+	position:fixed;
+	padding-top:none;
+	padding-bottom:none;
+	margin-bottom:0px;
+	top:85%;
+	height:15%;
+}
+.one .int-container{
+	width:50%;
+}

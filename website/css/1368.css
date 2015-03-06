@@ -1,0 +1,18 @@
+@media screen and (max-width:1440px){
+
+	/*	ONE STREAM	*/
+	.one iframe{
+		height:320px;
+		width:569px;
+	}
+	#side {
+		width:200px;
+		height:320px;
+	}
+	/*	TWO CHAT	*/
+	.two iframe{
+		width:569px;
+		height:320px;
+	}
+
+}

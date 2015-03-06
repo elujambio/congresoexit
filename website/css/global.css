@@ -1,0 +1,114 @@
+html,
+body{
+	background-color:rgba(16,16,26,1);
+	font-family: 'Open Sans', sans-serif;
+	color:#f1f2f2;
+	height:auto;
+}
+*::selection{
+	background:#43cea2;
+}
+*::-moz-selection{
+	background:#43cea2;
+}
+.slide {
+	width:100%;
+	height:auto;
+	min-height:70% !important;
+	text-align:center; 
+}
+.ext-container{
+	width:100%;
+	display:table;	
+}
+.int-container{
+	display:table-cell;
+	vertical-align: middle;
+	width:auto;
+	height:auto;
+}
+.left{
+	float:left;
+	width:50%;
+	height:auto;
+}
+.right{
+	float:left;
+	width:50%;
+	height:auto;
+}
+/* CENTERING THE UNKNOWN */
+.block {
+	text-align:left;
+} 
+/* The ghost, nudged to maintain perfect centering */
+.block:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */ 
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+}	
+input[type="text"],
+input[type="password"],
+input[type="submit"], textarea {
+  margin: 0;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 18px;
+  appearance: none;
+  box-shadow: none;
+  border-radius: none;
+  color:#666666 ;
+}
+input[type="text"]:focus, 
+input[type="password"]:focus,
+input[type="submit"]:focus, textarea {
+  outline: none;
+}
+.border input[type="text"],
+.border input[type="password"],
+.border input[type="submit"], textarea{
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+.border input[type="text"]:focus,
+.border input[type="text"].focus,
+.border input[type="password"]:focus,
+.border input[type="password"].focus,
+.border input[type="submit"]:focus,
+.border input[type="submit"].focus,
+.border input[type="budget"]:focus,
+.border input[type="budget"].focus, 
+textarea:focus, textarea.focus{
+  border: solid 5px #A60C1E;
+}
+input[type="submit"]{
+	width:40%;
+	background-color:#ffcc33;
+	color:#ffffff;	
+	border-color:#ffc000 !important;
+}
+ul{
+	list-style-type: none;
+	-moz-padding-start: 0px;
+	-webkit-padding-start: 0px;
+	-khtml-padding-start: 0px;
+	-o-padding-start: 0px;
+	padding-start: 0px;
+	padding: 0px;
+}
+label, input{
+	display:inline-block;
+}
+textarea{
+	resize:none;
+}

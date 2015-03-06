@@ -1,0 +1,45 @@
+<%= form_for(@convention) do |f| %>
+
+	<% if @convention.errors.any? %>
+		<h2><%= pluralize(@convention.errors.count, "error") %> prohibited this from saving</h2>
+
+		<ul>
+			<% @convention.errors.full_messages.each do |msg| %>
+				<li><%= msg %></li>
+			<% end %>
+			
+		</ul>
+
+	<% end %>
+
+
+
+
+
+
+	<p>
+		<%= f.label :name %><br>
+		<%= f.text_field :name %>
+	</p>
+
+	<p>
+		<%= f.label :description %> <br>
+		<%= f.text_area :description %>
+	</p>
+
+	<p>
+		<%= f.label :initDate, "Begins" %><br>
+		<%= f.text_field :initDate %>
+	</p>
+
+	<p>
+		<%= f.label :endDate, "Ends" %><br>
+		<%= f.text_field :endDate %>
+	</p>
+
+	<p>
+		<%= f.label :place %><br>
+		<%= f.text_field :place %>
+	</p>
+	<%= f.submit "Create Congress" %>
+<% end %>
